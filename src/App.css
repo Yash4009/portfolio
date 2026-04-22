@@ -30,9 +30,11 @@ nav a.active {
 
 /* HERO */
 .profile-img {
-  width: 160px;
-  border-radius: 50%;
+  width: 180px;
+  height: 200px;
+  border-radius: 0;   /* removes circle */
   border: 4px solid #00adb5;
+  object-fit: cover;
 }
 
 /* BUTTONS */
