@@ -15,7 +15,7 @@ function Home() {
         </p>
 
         <div className="buttons">
-          <a href="/resume.pdf" target="_blank" rel="noreferrer">📄 Resume</a>
+          <a href="resume.pdf" target="_blank" rel="noreferrer">📄 Resume</a>
           <a href="https://github.com/Yash4009" target="_blank" rel="noreferrer">💻 GitHub</a>
           <a href="https://www.linkedin.com/in/singireddy-yashwanth-reddy-636680298/" target="_blank" rel="noreferrer">🔗 LinkedIn</a>
         </div>
