@@ -22,12 +22,13 @@ nav a.active {
   color: #00adb5;
 }
 
-/* HERO */
+/* CONTAINER */
 .container {
   padding: 30px;
   text-align: center;
 }
 
+/* HERO */
 .profile-img {
   width: 160px;
   border-radius: 50%;
@@ -71,10 +72,20 @@ nav a.active {
 .project {
   background: white;
   margin: 20px auto;
-  padding: 20px;
-  width: 70%;
+  padding: 25px;
+  width: 80%;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.project ul {
+  padding-left: 20px;
+}
+
+.project li {
+  margin-bottom: 8px;
+  line-height: 1.6;
 }
 
 .project a {
