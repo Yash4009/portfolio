@@ -1,27 +1,72 @@
 import React from "react";
-import profile from "../profile.jpg"; // make sure image name matches
+import profile from "../profile.jpg";
 
 function Home() {
   return (
     <div className="container">
-      <h1>About Me</h1>
-      <p>
-        I am a Computer Science Engineering student at Mahindra University with strong interest in software development and problem solving. I enjoy building scalable backend systems and interactive web applications. I am passionate about learning new technologies and applying them to real-world projects, especially in areas like web development and system design.
-      </p>
 
-      <img src={profile} alt="Profile" className="profile-img" />
+      <div className="hero">
+        <img src={profile} alt="Profile" className="profile-img" />
 
-      <h2>Research Interests</h2>
-      <p>Web Development, Backend Systems, Software Engineering, System Design</p>
+        <h1>SINGIREDDY YASHWANTH REDDY</h1>
 
-      <h2>Personal Details</h2>
-      <p><strong>Name:</strong> SINGIREDDY YASHWANTH REDDY</p>
-      <p><strong>Phone:</strong> 9010528602</p>
-      <p><strong>Personal Email:</strong> SINGIREDDYYASHWANTHREDDY4009@GMAIL.COM</p>
-      <p><strong>College Email:</strong> SE23UMCS058@MAHINDRAUNIVERSITY.EDU.IN</p>
+        <p>
+          Computer Science Engineering student at Mahindra University passionate about backend development, APIs, and scalable systems. Experienced in building real-world applications using modern technologies.
+        </p>
 
+        <div className="buttons">
+          <a href="/resume.pdf" target="_blank" rel="noreferrer">
+            📄 Resume
+          </a>
+
+          <a href="https://github.com/Yash4009" target="_blank" rel="noreferrer">
+            💻 GitHub
+          </a>
+
+          <a href="https://www.linkedin.com/in/singireddy-yashwanth-reddy-636680298/" target="_blank" rel="noreferrer">
+            🔗 LinkedIn
+          </a>
+        </div>
+      </div>
+
+      {/* SKILLS */}
       <h2>Skills</h2>
-      <p>C, C++, Python, Java, Matlab, HTML, CSS, MySQL</p>
+
+      <div className="skill">
+        <p>C / C++</p>
+        <div className="bar"><div style={{width: "85%"}}></div></div>
+      </div>
+
+      <div className="skill">
+        <p>Python</p>
+        <div className="bar"><div style={{width: "80%"}}></div></div>
+      </div>
+
+      <div className="skill">
+        <p>Java</p>
+        <div className="bar"><div style={{width: "75%"}}></div></div>
+      </div>
+
+      <div className="skill">
+        <p>Web (HTML/CSS)</p>
+        <div className="bar"><div style={{width: "85%"}}></div></div>
+      </div>
+
+      <div className="skill">
+        <p>MySQL</p>
+        <div className="bar"><div style={{width: "70%"}}></div></div>
+      </div>
+
+      {/* CONTACT */}
+      <h2>Contact</h2>
+
+      <div className="contact">
+        <p>📞 <a href="tel:9010528602">9010528602</a></p>
+        <p>📧 <a href="mailto:SINGIREDDYYASHWANTHREDDY4009@GMAIL.COM">
+          Email Me
+        </a></p>
+      </div>
+
     </div>
   );
 }
