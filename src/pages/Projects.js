@@ -28,7 +28,7 @@ function Projects() {
           <li>Integrated score tracking and game state management</li>
           <li>Used event-driven programming for user interaction</li>
         </ul>
-        <a href="#" target="_blank" rel="noreferrer">
+        <a href="https://github.com/jaswanth-student/Memory-Game" target="_blank" rel="noreferrer">
           🔗 Add GitHub Link
         </a>
       </div>
