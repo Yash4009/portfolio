@@ -29,7 +29,7 @@ function Projects() {
           <li>Used event-driven programming for user interaction</li>
         </ul>
         <a href="https://github.com/jaswanth-student/Memory-Game" target="_blank" rel="noreferrer">
-          🔗 Add GitHub Link
+          🔗 View Code
         </a>
       </div>
 
